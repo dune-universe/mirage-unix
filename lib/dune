@@ -1,7 +1,7 @@
 (library
   (name OS_unix)
   (public_name mirage-unix.internals)
-  (libraries lwt lwt.unix logs io-page-unix)
+  (libraries lwt lwt.unix logs io-page)
   (modules lifecycle main time))
 
 (library
